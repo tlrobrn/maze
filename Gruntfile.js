@@ -3,7 +3,7 @@ module.exports = function(grunt) {
     var js_path = {
         src: ['dev/js/config.js', 'dev/js/components.js', 'dev/js/scenes.js'],
         concat: 'dev/js/src.js',
-        dest: 'dist/js/src.min.js'
+        dest: '../dist/js/src.min.js'
     };
 
     grunt.initConfig({
@@ -41,7 +41,7 @@ module.exports = function(grunt) {
                     }
                 },
                 files: {
-                    'dist/index.html': ['dev/*.jade']
+                    '../dist/index.html': ['dev/*.jade']
                 }
             }
         },
@@ -51,13 +51,13 @@ module.exports = function(grunt) {
                 files: {'dev/css/main.css': 'dev/css/*.styl'}
             },
             dist: {
-                files: {'dist/css/main.css': 'dev/css/*.styl'}
+                files: {'../dist/css/main.css': 'dev/css/*.styl'}
             }
         },
         copy: {
             dist: {
                 files: [
-                    {expand: true, cwd: 'dev/', src: ['assets/**', 'js/crafty.js'], dest: 'dist/'},
+                    {expand: true, cwd: 'dev/', src: ['assets/**', 'js/crafty.js'], dest: '../dist/'},
                 ]
             }
         }
