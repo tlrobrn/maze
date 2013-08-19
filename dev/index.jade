@@ -1,0 +1,9 @@
+doctype 5
+html(lang="en")
+    head
+        title Maze
+        - for (var i = 0, max = css.length; i < max; i++)
+            link(href=css[i], rel="stylesheet", type="text/css")
+    body(onload="game.start()")
+        - for (var i = 0, max = js.length; i < max; i++)
+            script(src=js[i])

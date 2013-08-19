@@ -1,10 +1,13 @@
 {
-    "name" : "Maze",
-    "version" : "0.1.0",
-    "private" : true,
-    "devDependencies" : {
-        "grunt": "latest",
-        "grunt-contrib-concat" : "latest",
-        "grunt-contrib-uglify" : "latest"
-    }
+  "name": "Maze",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "grunt": "latest",
+    "grunt-contrib-concat": "latest",
+    "grunt-contrib-uglify": "latest",
+    "grunt-contrib-jade": "latest",
+    "grunt-contrib-stylus": "latest",
+    "grunt-contrib-copy": "latest"
+  }
 }
