@@ -1,0 +1,10 @@
+{
+    "name" : "Maze",
+    "version" : "0.1.0",
+    "private" : true,
+    "devDependencies" : {
+        "grunt": "latest",
+        "grunt-contrib-concat" : "latest",
+        "grunt-contrib-uglify" : "latest"
+    }
+}
